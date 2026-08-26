@@ -5,7 +5,7 @@ requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
-rag = ["openai>=1.0", "qdrant-client>=1.9", "PyYAML>=6"]
+rag = ["openai>=3.3.1", "qdrant-client>=1.9", "PyYAML>=6"]
 dev = ["pytest>=8", "ruff>=0.6", "PyYAML>=6"]
 
 [tool.ruff]
