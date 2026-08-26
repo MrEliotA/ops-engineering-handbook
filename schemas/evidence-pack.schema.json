@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","type":"object","required":["captured_at","host","checks"],"properties":{"captured_at":{"type":"string"},"host":{"type":"string"},"incident_id":{"type":"string"},"checks":{"type":"array","items":{"type":"object","required":["name","command","exit_code","output_file"]}}}}
